@@ -1,6 +1,6 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, memo } from "react";
 import styles from "./TrustedBySection.module.css";
-const TrustedBySection: FunctionComponent = () => {
+const TrustedBySection: FunctionComponent = memo(() => {
   return (
     <div className={styles.section2Parent}>
       <div className={styles.section2} />
@@ -12,6 +12,6 @@ const TrustedBySection: FunctionComponent = () => {
       <img className={styles.logoIcon4} alt="" src="/logo4.svg" />
     </div>
   );
-};
+});
 
 export default TrustedBySection;

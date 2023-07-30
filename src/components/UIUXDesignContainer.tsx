@@ -1,7 +1,7 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, memo } from "react";
 import FormsInputLeftIconLargeFi from "./FormsInputLeftIconLargeFi";
 import styles from "./UIUXDesignContainer.module.css";
-const UIUXDesignContainer: FunctionComponent = () => {
+const UIUXDesignContainer: FunctionComponent = memo(() => {
   return (
     <div className={styles.frameParent}>
       <div className={styles.itemParent}>
@@ -76,6 +76,6 @@ const UIUXDesignContainer: FunctionComponent = () => {
       <img className={styles.vectorIcon1} alt="" src="/vector2.svg" />
     </div>
   );
-};
+});
 
 export default UIUXDesignContainer;

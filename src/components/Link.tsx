@@ -1,4 +1,4 @@
-import { FunctionComponent, useMemo } from "react";
+import { FunctionComponent, memo, useMemo } from "react";
 import CSS, { Property } from "csstype";
 import styles from "./Link.module.css";
 
@@ -11,32 +11,29 @@ type LinkType = {
   linkColor?: Property.Color;
 };
 
-const Link: FunctionComponent<LinkType> = ({
-  link,
-  linkPosition,
-  linkPadding,
-  linkColor,
-}) => {
-  const linkStyle: CSS.Properties = useMemo(() => {
-    return {
-      position: linkPosition,
-      padding: linkPadding,
-    };
-  }, [linkPosition, linkPadding]);
+const Link: FunctionComponent<LinkType> = memo(
+  ({ link, linkPosition, linkPadding, linkColor }) => {
+    const linkStyle: CSS.Properties = useMemo(() => {
+      return {
+        position: linkPosition,
+        padding: linkPadding,
+      };
+    }, [linkPosition, linkPadding]);
 
-  const link1Style: CSS.Properties = useMemo(() => {
-    return {
-      color: linkColor,
-    };
-  }, [linkColor]);
+    const link1Style: CSS.Properties = useMemo(() => {
+      return {
+        color: linkColor,
+      };
+    }, [linkColor]);
 
-  return (
-    <div className={styles.link} style={linkStyle}>
-      <div className={styles.link1} style={link1Style}>
-        {link}
+    return (
+      <div className={styles.link} style={linkStyle}>
+        <div className={styles.link1} style={link1Style}>
+          {link}
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+);
 
 export default Link;

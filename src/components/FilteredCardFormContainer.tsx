@@ -1,6 +1,6 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, memo } from "react";
 import styles from "./FilteredCardFormContainer.module.css";
-const FilteredCardFormContainer: FunctionComponent = () => {
+const FilteredCardFormContainer: FunctionComponent = memo(() => {
   return (
     <div className={styles.section8}>
       <div className={styles.letsHearWhatContainer}>
@@ -36,6 +36,6 @@ const FilteredCardFormContainer: FunctionComponent = () => {
       <img className={styles.section8Child1} alt="" src="/ellipse-36@2x.png" />
     </div>
   );
-};
+});
 
 export default FilteredCardFormContainer;

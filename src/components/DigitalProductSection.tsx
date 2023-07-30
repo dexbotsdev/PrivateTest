@@ -1,6 +1,6 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, memo } from "react";
 import styles from "./DigitalProductSection.module.css";
-const DigitalProductSection: FunctionComponent = () => {
+const DigitalProductSection: FunctionComponent = memo(() => {
   return (
     <div className={styles.ourWorkWeDoAndParent}>
       <b className={styles.ourWorkWe}>We create world-class digital products</b>
@@ -50,6 +50,6 @@ const DigitalProductSection: FunctionComponent = () => {
       </div>
     </div>
   );
-};
+});
 
 export default DigitalProductSection;

@@ -1,4 +1,4 @@
-import { FunctionComponent, useMemo } from "react";
+import { FunctionComponent, memo, useMemo } from "react";
 import CSS, { Property } from "csstype";
 import styles from "./Headline.module.css";
 
@@ -11,35 +11,37 @@ type HeadlineType = {
   lightningFastPrototypingTextAlign?: Property.TextAlign;
 };
 
-const Headline: FunctionComponent<HeadlineType> = ({
-  lightningFastPrototyping,
-  headlinePosition,
-  lightningFastPrototypingColor,
-  lightningFastPrototypingTextAlign,
-}) => {
-  const headlineStyle: CSS.Properties = useMemo(() => {
-    return {
-      position: headlinePosition,
-    };
-  }, [headlinePosition]);
+const Headline: FunctionComponent<HeadlineType> = memo(
+  ({
+    lightningFastPrototyping,
+    headlinePosition,
+    lightningFastPrototypingColor,
+    lightningFastPrototypingTextAlign,
+  }) => {
+    const headlineStyle: CSS.Properties = useMemo(() => {
+      return {
+        position: headlinePosition,
+      };
+    }, [headlinePosition]);
 
-  const lightningFastPrototypingStyle: CSS.Properties = useMemo(() => {
-    return {
-      color: lightningFastPrototypingColor,
-      textAlign: lightningFastPrototypingTextAlign,
-    };
-  }, [lightningFastPrototypingColor, lightningFastPrototypingTextAlign]);
+    const lightningFastPrototypingStyle: CSS.Properties = useMemo(() => {
+      return {
+        color: lightningFastPrototypingColor,
+        textAlign: lightningFastPrototypingTextAlign,
+      };
+    }, [lightningFastPrototypingColor, lightningFastPrototypingTextAlign]);
 
-  return (
-    <div className={styles.headline} style={headlineStyle}>
-      <div
-        className={styles.lightningFastPrototyping}
-        style={lightningFastPrototypingStyle}
-      >
-        {lightningFastPrototyping}
+    return (
+      <div className={styles.headline} style={headlineStyle}>
+        <div
+          className={styles.lightningFastPrototyping}
+          style={lightningFastPrototypingStyle}
+        >
+          {lightningFastPrototyping}
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+);
 
 export default Headline;

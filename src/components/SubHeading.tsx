@@ -1,4 +1,4 @@
-import { FunctionComponent, useMemo } from "react";
+import { FunctionComponent, memo, useMemo } from "react";
 import CSS, { Property } from "csstype";
 import styles from "./SubHeading.module.css";
 
@@ -12,37 +12,39 @@ type SubHeadingType = {
   mostCalendarsAreContainerTextAlign?: Property.TextAlign;
 };
 
-const SubHeading: FunctionComponent<SubHeadingType> = ({
-  mostCalendarsAreDesignedF,
-  freelancersWhoWantASimple,
-  subHeadingPosition,
-  mostCalendarsAreContainerColor,
-  mostCalendarsAreContainerTextAlign,
-}) => {
-  const subHeadingStyle: CSS.Properties = useMemo(() => {
-    return {
-      position: subHeadingPosition,
-    };
-  }, [subHeadingPosition]);
+const SubHeading: FunctionComponent<SubHeadingType> = memo(
+  ({
+    mostCalendarsAreDesignedF,
+    freelancersWhoWantASimple,
+    subHeadingPosition,
+    mostCalendarsAreContainerColor,
+    mostCalendarsAreContainerTextAlign,
+  }) => {
+    const subHeadingStyle: CSS.Properties = useMemo(() => {
+      return {
+        position: subHeadingPosition,
+      };
+    }, [subHeadingPosition]);
 
-  const mostCalendarsAreContainerStyle: CSS.Properties = useMemo(() => {
-    return {
-      color: mostCalendarsAreContainerColor,
-      textAlign: mostCalendarsAreContainerTextAlign,
-    };
-  }, [mostCalendarsAreContainerColor, mostCalendarsAreContainerTextAlign]);
+    const mostCalendarsAreContainerStyle: CSS.Properties = useMemo(() => {
+      return {
+        color: mostCalendarsAreContainerColor,
+        textAlign: mostCalendarsAreContainerTextAlign,
+      };
+    }, [mostCalendarsAreContainerColor, mostCalendarsAreContainerTextAlign]);
 
-  return (
-    <div className={styles.subHeading} style={subHeadingStyle}>
-      <div
-        className={styles.mostCalendarsAreContainer}
-        style={mostCalendarsAreContainerStyle}
-      >
-        <p className={styles.mostCalendarsAre}>{mostCalendarsAreDesignedF}</p>
-        <p className={styles.mostCalendarsAre}>{freelancersWhoWantASimple}</p>
+    return (
+      <div className={styles.subHeading} style={subHeadingStyle}>
+        <div
+          className={styles.mostCalendarsAreContainer}
+          style={mostCalendarsAreContainerStyle}
+        >
+          <p className={styles.mostCalendarsAre}>{mostCalendarsAreDesignedF}</p>
+          <p className={styles.mostCalendarsAre}>{freelancersWhoWantASimple}</p>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+);
 
 export default SubHeading;
