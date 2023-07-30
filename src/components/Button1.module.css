@@ -1,0 +1,13 @@
+.button {
+  position: relative;
+  border-radius: var(--br-66xl);
+  background-color: var(--primary);
+  height: 52px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-17xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}

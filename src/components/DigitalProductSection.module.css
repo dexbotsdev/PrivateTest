@@ -1,0 +1,230 @@
+.followThisSteps,
+.ourWorkWe {
+  position: absolute;
+  left: 10.42%;
+}
+.ourWorkWe {
+  top: calc(50% - 341.5px);
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.2px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: var(--main-color-1);
+}
+.followThisSteps {
+  top: calc(50% - 275.5px);
+  font-size: var(--font-size-xl);
+  line-height: 36px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.bitmapIcon {
+  position: absolute;
+  height: 51.32%;
+  width: 38.54%;
+  top: 27.15%;
+  right: 50.97%;
+  bottom: 21.53%;
+  left: 10.49%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.redesignChannelWeb {
+  position: absolute;
+  top: calc(50% + 298.5px);
+  left: 10.49%;
+  font-size: var(--sub-heading-size);
+  line-height: 28px;
+  color: var(--main-color-1);
+}
+.byInformationAbout,
+.uiuxDesign {
+  position: absolute;
+  left: 10.49%;
+  line-height: 26px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.byInformationAbout {
+  width: 38.54%;
+  top: calc(50% + 338.5px);
+  display: inline-block;
+}
+.uiuxDesign {
+  top: calc(50% + 262.5px);
+}
+.baseIcon,
+.pathIcon {
+  position: absolute;
+  top: 1232px;
+  left: 0;
+  width: 1440px;
+  height: 584px;
+}
+.pathIcon {
+  height: 5.5%;
+  width: 3.33%;
+  top: 153.49%;
+  right: 45.63%;
+  bottom: -58.99%;
+  left: 51.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.redesignChannelWeb1 {
+  position: absolute;
+  width: 18.26%;
+  top: calc(50% + 34.5px);
+  left: 51.04%;
+  font-size: var(--subtitle-size);
+  line-height: 28px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.uiuxDesign1 {
+  position: absolute;
+  top: calc(50% + 0.5px);
+  left: 51.04%;
+  line-height: 26px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.mask {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-aliceblue);
+}
+.bitmap,
+.bitmapIcon1 {
+  position: absolute;
+  height: 21.53%;
+  width: 18.26%;
+  top: 27.15%;
+  right: 30.69%;
+  bottom: 51.32%;
+  left: 51.04%;
+}
+.bitmapIcon1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.rentalRoomsWeb {
+  margin: 0;
+}
+.redesignChannelWebContainer {
+  width: 18.26%;
+  top: calc(50% + 352.5px);
+  font-size: var(--subtitle-size);
+  line-height: 28px;
+  display: inline-block;
+}
+.bitmapIcon2,
+.redesignChannelWebContainer,
+.uiuxDesign2 {
+  position: absolute;
+  left: 51.04%;
+}
+.uiuxDesign2 {
+  top: calc(50% + 318.5px);
+  line-height: 26px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.bitmapIcon2 {
+  height: 21.53%;
+  width: 18.26%;
+  top: 63.57%;
+  right: 30.69%;
+  bottom: 14.89%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.redesignChannelWebContainer1 {
+  position: absolute;
+  width: 18.26%;
+  top: calc(50% + 34.5px);
+  left: 71.32%;
+  font-size: var(--subtitle-size);
+  line-height: 28px;
+  display: inline-block;
+}
+.bitmapIcon3,
+.uiuxDesign3 {
+  position: absolute;
+  left: 71.32%;
+}
+.uiuxDesign3 {
+  top: calc(50% + 0.5px);
+  line-height: 26px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.bitmapIcon3 {
+  height: 21.53%;
+  width: 18.26%;
+  top: 27.15%;
+  right: 10.42%;
+  bottom: 51.32%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.redesignChannelWebContainer2 {
+  position: absolute;
+  width: 18.26%;
+  top: calc(50% + 352.5px);
+  left: 71.32%;
+  font-size: var(--subtitle-size);
+  line-height: 28px;
+  display: inline-block;
+}
+.uiuxDesign4 {
+  position: absolute;
+  top: calc(50% + 318.5px);
+  left: 71.32%;
+  line-height: 26px;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+}
+.image10Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  width: 263px;
+  height: 188px;
+  object-fit: cover;
+}
+.bitmap1 {
+  position: absolute;
+  height: 21.53%;
+  width: 18.26%;
+  top: 63.57%;
+  right: 10.42%;
+  bottom: 14.89%;
+  left: 71.32%;
+}
+.ourWorkWeDoAndParent {
+  position: relative;
+  width: 1440px;
+  height: 873px;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--second-color);
+  font-family: var(--headline);
+}

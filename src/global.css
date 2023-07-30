@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@font-face {
+  font-family: "Circular Std";
+  src: url("/public/Montserrat-Bold.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --headline: Poppins;
+  --font-inter: Inter;
+  --font-montserrat: Montserrat;
+  --subtitle: "Circular Std";
+  --second-headline: Roboto;
+
+  /* font sizes */
+  --subtitle-size: 18px;
+  --font-size-sm: 14px;
+  --font-size-41xl: 60px;
+  --font-size-base: 16px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --sub-heading-size: 24px;
+  --font-size-81xl: 100px;
+  --paragraphe-size: 19px;
+  --title-size: 36px;
+  --headline-size: 72px;
+  --second-headline-size: 56px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --light-background: #fff;
+  --main-color: #1abcfe;
+  --primary: #00b6f0;
+  --color-deepskyblue-100: #15abda;
+  --color-aliceblue: #eaeef3;
+  --secondary1: #112d57;
+  --main-color-1: #1e1f4b;
+  --second-color: #2e3e5c;
+  --color-slateblue-100: rgba(112, 111, 229, 0.02);
+  --first-text: #20262a;
+  --dark-background: #182333;
+  --color-gray-100: #1b1d21;
+  --color-gray-200: rgba(0, 0, 0, 0);
+  --color-midnightblue: #03014c;
+  --second-text: #5c5c5c;
+  --secondary: #f3cd03;
+
+  /* Gaps */
+  --gap-12xl: 31px;
+  --gap-xl: 20px;
+  --gap-31xl: 50px;
+  --gap-smi: 13px;
+  --gap-6xs: 7px;
+  --gap-3xs: 10px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-21xl: 40px;
+  --padding-31xl: 50px;
+  --padding-xl: 20px;
+  --padding-17xl: 36px;
+  --padding-81xl: 100px;
+  --padding-11xl: 30px;
+  --padding-43xl: 62px;
+  --padding-180xl: 199px;
+  --padding-20xl: 39px;
+
+  /* border radiuses */
+  --br-xs: 12px;
+  --br-1981xl: 2000px;
+  --br-11xl: 30px;
+  --br-66xl: 85px;
+  --br-3xs-5: 9.5px;
+  --br-8xs: 5px;
+  --br-74xl: 93px;
+
+  /* Effects */
+  --shadow: 0px 6px 20px rgba(112, 111, 229, 0.5);
+}

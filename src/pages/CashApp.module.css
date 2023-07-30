@@ -1,0 +1,247 @@
+.layer2Icon {
+  position: relative;
+  width: 64px;
+  height: 36px;
+}
+.eyeButton {
+  position: absolute;
+  top: calc(50% - 309.65px);
+  right: 62.5px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.signIn {
+  position: relative;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.menu {
+  position: absolute;
+  top: calc(50% - 299.5px);
+  left: calc(50% - 101px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.cashappLogo {
+  position: absolute;
+  top: calc(50% - 331.5px);
+  left: 37px;
+  width: 109px;
+  height: 117px;
+}
+.vectorIcon {
+  position: relative;
+  width: 1360px;
+  height: 1360px;
+}
+.cash,
+.layer1,
+.vectorWrapper {
+  position: absolute;
+  left: 0;
+  width: 1366px;
+  height: 967px;
+}
+.vectorWrapper {
+  top: 0;
+  backdrop-filter: blur(4px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cash,
+.layer1 {
+  top: -277px;
+}
+.cash {
+  height: 43.77%;
+  width: 52.05%;
+  top: 12.86%;
+  left: 24.67%;
+  letter-spacing: 0.5px;
+  line-height: 166px;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introPhone1 {
+  position: absolute;
+  height: 65.47%;
+  width: 27.09%;
+  top: 19.22%;
+  right: 74.08%;
+  bottom: 15.31%;
+  left: -1.17%;
+}
+.blankLine {
+  margin: 0;
+}
+.botTxt {
+  line-break: anywhere;
+  width: 100%;
+}
+.bot {
+  position: absolute;
+  height: 43.77%;
+  width: 52.05%;
+  top: 24.57%;
+  left: 23.06%;
+  font-size: 193px;
+  letter-spacing: 0.5px;
+  line-height: 166px;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+}
+.blankLine1 {
+  margin: 0;
+  line-height: 166px;
+}
+.antiRugpullAll {
+  margin: 0;
+  line-height: 87px;
+}
+.antiRugpullAllContainer {
+  position: absolute;
+  height: 22.25%;
+  width: 54.03%;
+  top: 57.08%;
+  left: 22.04%;
+  font-size: var(--font-size-21xl);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.hero,
+.rays {
+  position: absolute;
+  top: 277px;
+  left: 0;
+  width: 1366px;
+  height: 692px;
+  overflow: hidden;
+}
+.rays {
+  top: -248px;
+  width: 1360px;
+  height: 1360px;
+  text-align: center;
+  font-size: 225px;
+}
+.frameIcon,
+.frameIcon1,
+.frameIcon2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameIcon1,
+.frameIcon2 {
+  width: 21px;
+  height: 17px;
+}
+.frameIcon2 {
+  height: 21px;
+}
+.buttons {
+  position: absolute;
+  top: 21px;
+  left: calc(50% + 495px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.fixedFooter {
+  position: absolute;
+  width: calc(100% - 123px);
+  top: 637px;
+  right: 63px;
+  left: 60px;
+  height: 65px;
+  overflow: hidden;
+}
+.heroSectionChild {
+  position: absolute;
+  top: 630px;
+  left: 586px;
+  border-radius: var(--br-74xl);
+  background-color: var(--color-deepskyblue-100);
+  box-shadow: 0 4px 41px rgba(112, 10, 160, 0.4);
+  width: 221px;
+  height: 56px;
+}
+.joinTheFray {
+  position: absolute;
+  top: 639px;
+  left: 633px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  width: 145px;
+  height: 38px;
+}
+.heroSectionItem {
+  position: absolute;
+  top: 56px;
+  left: 1107px;
+  border-radius: var(--br-74xl);
+  background-color: var(--color-deepskyblue-100);
+  box-shadow: 0 4px 41px rgba(112, 10, 160, 0.4);
+  width: 226px;
+  height: 39px;
+}
+.connect {
+  position: absolute;
+  top: 66px;
+  left: 1166px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.heroSection {
+  position: relative;
+  background-color: #06cefa;
+  width: 1366px;
+  height: 721px;
+}
+.cashApp {
+  position: relative;
+  background-color: var(--light-background);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--light-background);
+  font-family: var(--font-montserrat);
+}

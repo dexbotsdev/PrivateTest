@@ -1,0 +1,118 @@
+.letsHear {
+  margin-block-start: 0;
+  margin-block-end: 12px;
+}
+.whatTheySays {
+  margin: 0;
+}
+.letsHearWhatContainer {
+  position: absolute;
+  top: 94px;
+  left: 553px;
+  font-size: var(--font-size-21xl);
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.loremIpsumDolor {
+  margin-block-start: 0;
+  margin-block-end: 25px;
+}
+.loremIpsumDolorContainer {
+  position: absolute;
+  top: 301px;
+  left: 386px;
+  font-size: var(--font-size-base);
+  opacity: 0.5;
+}
+.div,
+.div1 {
+  position: absolute;
+  top: 242px;
+  left: 302px;
+  font-weight: 800;
+  font-family: var(--font-montserrat);
+  color: var(--main-color);
+}
+.div1 {
+  top: 332px;
+  left: 1153px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.maskGroupIcon,
+.section8Child {
+  position: absolute;
+  top: 543.33px;
+  left: 668.33px;
+  width: 103.33px;
+  height: 103.33px;
+}
+.maskGroupIcon {
+  top: 551.08px;
+  left: 676.94px;
+  width: 86.11px;
+  height: 86.11px;
+}
+.founderOfVaribo,
+.rickyAprilia {
+  position: absolute;
+  top: 656px;
+  left: 649px;
+  font-size: var(--sub-heading-size);
+  color: var(--main-color-1);
+}
+.founderOfVaribo {
+  top: 693px;
+  left: 636px;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  color: var(--second-color);
+  opacity: 0.8;
+}
+.section8Item {
+  position: absolute;
+  top: 561.42px;
+  left: 833.67px;
+  border-radius: 50%;
+  width: 67.17px;
+  height: 67.17px;
+  object-fit: cover;
+  opacity: 0.65;
+}
+.ellipseIcon,
+.section8Child1,
+.section8Inner {
+  position: absolute;
+  top: 570.03px;
+  left: 980.06px;
+  border-radius: 50%;
+  width: 49.94px;
+  height: 49.94px;
+  object-fit: cover;
+}
+.ellipseIcon,
+.section8Child1 {
+  top: 561.42px;
+  left: 539.17px;
+  width: 67.17px;
+  height: 67.17px;
+}
+.section8Child1 {
+  top: 570.03px;
+  left: 410px;
+  width: 49.94px;
+  height: 49.94px;
+}
+.section8 {
+  position: relative;
+  background-color: var(--color-slateblue-100);
+  width: 1440px;
+  height: 810px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+  text-align: center;
+  font-size: var(--font-size-81xl);
+  color: var(--color-midnightblue);
+  font-family: var(--headline);
+}

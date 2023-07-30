@@ -1,0 +1,79 @@
+.section2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-slateblue-100);
+  width: 1440px;
+  height: 274px;
+  overflow: hidden;
+}
+.trustedByGreat {
+  position: absolute;
+  top: calc(50% - 77px);
+  left: 38.65%;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.logoIcon,
+.logoIcon1,
+.logoIcon2,
+.logoIcon3,
+.logoIcon4 {
+  position: absolute;
+  height: 13.14%;
+  width: 7.57%;
+  top: 48.91%;
+  right: 73.68%;
+  bottom: 37.96%;
+  left: 18.75%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.logoIcon1,
+.logoIcon2,
+.logoIcon3,
+.logoIcon4 {
+  width: 8.06%;
+  right: 60.07%;
+  left: 31.88%;
+}
+.logoIcon2,
+.logoIcon3,
+.logoIcon4 {
+  height: 15.33%;
+  width: 7.64%;
+  top: 47.81%;
+  right: 46.88%;
+  bottom: 36.86%;
+  left: 45.49%;
+}
+.logoIcon3,
+.logoIcon4 {
+  height: 13.14%;
+  width: 8.75%;
+  top: 48.91%;
+  right: 32.57%;
+  bottom: 37.96%;
+  left: 58.68%;
+}
+.logoIcon4 {
+  height: 13.03%;
+  width: 8.24%;
+  top: 50.27%;
+  right: 18.76%;
+  bottom: 36.7%;
+  left: 72.99%;
+}
+.section2Parent {
+  position: relative;
+  width: 1440px;
+  height: 274px;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--main-color-1);
+  font-family: var(--headline);
+}

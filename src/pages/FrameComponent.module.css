@@ -1,0 +1,414 @@
+.linkParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.linkParent,
+.menu,
+.navbar {
+  overflow: hidden;
+}
+.menu {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - 203.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navbar {
+  position: relative;
+  width: 1180px;
+  height: 119px;
+  flex-shrink: 0;
+}
+.confettiShapesIcon {
+  position: relative;
+  width: 1282px;
+  height: 841.1px;
+}
+.buttons,
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-20xl) 0;
+  gap: 17px;
+}
+.buttons {
+  flex-direction: row;
+  gap: 25px;
+}
+.screenIcon {
+  position: relative;
+  width: 1280px;
+  height: 874px;
+}
+.desktopHeader02,
+.hero8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero8 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.22) 5.92%,
+    rgba(0, 225, 198, 0.06) 19.82%,
+    #fff 55.12%
+  );
+  align-items: center;
+  gap: 45px;
+}
+.desktopHeader02 {
+  background-color: var(--light-background);
+  overflow: hidden;
+  padding: var(--padding-11xl) 0;
+  align-items: flex-start;
+}
+.buttons1,
+.textContent {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.textContent {
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.buttons1 {
+  flex-direction: row;
+  gap: var(--gap-smi);
+}
+.content,
+.lightCta1,
+.textContent1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content {
+  align-items: center;
+  gap: 59px;
+}
+.lightCta1,
+.textContent1 {
+  overflow: hidden;
+}
+.lightCta1 {
+  align-self: stretch;
+  background-color: var(--light-background);
+  padding: var(--padding-43xl) var(--padding-180xl);
+  align-items: center;
+}
+.textContent1 {
+  align-items: flex-start;
+  gap: var(--gap-6xs);
+}
+.frameChild,
+.screenIcon1 {
+  position: relative;
+  width: 644.5px;
+  height: 497px;
+}
+.screenIcon1 {
+  border-radius: var(--br-8xs);
+  width: 578px;
+  height: 413px;
+  object-fit: cover;
+}
+.content1,
+.frameParent,
+.lightContent5 {
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.content1,
+.lightContent5 {
+  align-items: center;
+}
+.content1 {
+  flex-direction: row;
+  gap: var(--gap-31xl);
+}
+.lightContent5 {
+  align-self: stretch;
+  background-color: var(--light-background);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-xl);
+}
+.frameItem {
+  position: relative;
+  width: 676px;
+  height: 501px;
+}
+.digits,
+.title {
+  position: absolute;
+  top: 22px;
+  line-height: 24px;
+  display: inline-block;
+}
+.title {
+  left: 0;
+  width: 293px;
+}
+.digits {
+  right: 0;
+  color: #505d70;
+  text-align: right;
+  width: 150px;
+}
+.rectangle,
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xs-5);
+}
+.rectangle {
+  width: 100%;
+  right: 0;
+  background-color: #f3f5f8;
+}
+.rectangle1 {
+  width: 49.89%;
+  right: 50.11%;
+  background-color: var(--primary);
+}
+.progressBar {
+  position: absolute;
+  width: 100%;
+  right: 0.5px;
+  bottom: 19px;
+  left: -0.5px;
+  height: 15px;
+}
+.progresssBarWithTitle {
+  position: relative;
+  width: 757px;
+  height: 34px;
+}
+.content3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 52px;
+}
+.lightTestimonial1Child,
+.logosibmIcon {
+  position: relative;
+  width: 1119.9px;
+  height: 731px;
+}
+.logosibmIcon {
+  width: 149.85px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.brands {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 19px 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+.avatarIcon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+.textContent4 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.client,
+.lightTestimonial1,
+.textContent4,
+.textContent5 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.client {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-smi);
+}
+.lightTestimonial1,
+.textContent5 {
+  flex-direction: column;
+}
+.lightTestimonial1 {
+  align-self: stretch;
+  background-color: var(--light-background);
+  padding: 108px var(--padding-xl);
+  align-items: center;
+  gap: var(--gap-31xl);
+}
+.textContent5 {
+  align-items: flex-start;
+  gap: 6px;
+}
+.div {
+  position: relative;
+  letter-spacing: 0.2px;
+  line-height: 78px;
+  font-weight: 900;
+}
+.content4,
+.headlineParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.headlineParent {
+  overflow: hidden;
+  align-items: center;
+}
+.content4 {
+  align-items: flex-start;
+  gap: 167px;
+}
+.darkPricing4 {
+  align-self: stretch;
+  background-color: var(--dark-background);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-81xl) var(--padding-xl);
+  align-items: center;
+  font-size: var(--headline-size);
+  color: var(--secondary);
+  font-family: var(--headline);
+}
+.content5,
+.darkPricing4,
+.textBlock,
+.textRow {
+  display: flex;
+  justify-content: flex-start;
+}
+.textBlock {
+  width: 494px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  padding: 26px 22px;
+  box-sizing: border-box;
+  align-items: center;
+}
+.content5,
+.textRow {
+  align-items: flex-start;
+}
+.textRow {
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-xl) 0;
+  gap: var(--gap-xl);
+}
+.content5 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 47px;
+}
+.brand,
+.lightContent2,
+.menu1 {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+}
+.lightContent2 {
+  align-self: stretch;
+  background: linear-gradient(180deg, #e9faff, rgba(233, 250, 255, 0));
+  flex-direction: column;
+  padding: var(--padding-31xl) var(--padding-xl);
+  align-items: flex-start;
+}
+.brand,
+.menu1 {
+  position: absolute;
+}
+.brand {
+  top: calc(50% - 42.5px);
+  left: 76px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.menu1 {
+  top: calc(50% - 20px);
+  left: calc(50% - 203px);
+  flex-direction: row;
+  align-items: center;
+}
+.antDesigntwitterOutlinedIcon {
+  position: relative;
+  width: 50.35px;
+  height: 50.35px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMedia {
+  position: absolute;
+  top: calc(50% - 25.5px);
+  right: 94px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 29.48px;
+}
+.lightFooter1 {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--light-background);
+  height: 207px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.desktop1,
+.desktop1Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.desktop1 {
+  background-color: var(--light-background);
+  width: 1282px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.desktop1Parent {
+  position: relative;
+  width: 100%;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: #505d6f;
+  font-family: var(--second-headline);
+}
